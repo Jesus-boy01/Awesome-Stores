@@ -1,0 +1,237 @@
+/*----------------------------------*/
+/* BASIC SETUP */
+/*----------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: Arial;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: "Arial";
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*----------------------------------*/
+/* HEADER */
+/*----------------------------------*/
+
+header {
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(bg-img.jpg); */
+    background-color: #fff;
+}
+
+/*----------------------------------*/
+/* HEAD */
+/*----------------------------------*/
+
+.head {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding-left: 20px;
+    display: flex;
+    font-size: 15px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.top-head h1 {
+    float: right;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 300;
+    padding-right: 5px;
+}
+
+.top-head img {
+    height: 50px;
+    width: 50px;
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+.main-nav {
+    margin-left: 350px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #e67e22;
+    transition: color 0.6s;
+}
+
+/*----------------------------------*/
+/* CUSTOMER-SERVICE */
+/*----------------------------------*/
+
+.customer-service {
+    margin-top: 50px;
+}
+
+.customer-service h2 {
+    font-size: 35px;
+    font-weight: 300;
+    color: #555;
+}
+
+.customer-service .adjustments {
+    padding-top: 80px;
+    padding-bottom: 35px;
+    color: #fff;
+    text-align: center;
+}
+
+/*----------------------------------*/
+/* ICONS */
+/*----------------------------------*/
+
+.icon-small {
+    text-align: center;
+    color: #e67e22;
+    font-size: 15px;
+    padding-right: 10px;
+
+    /*secrets to align text and icon*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/*----------------------------------*/
+/* PARAGRAPHS */
+/*----------------------------------*/
+
+.contact-us {
+    margin-top: 50px;
+}
+
+.contact-us span {
+    margin-left: 570px;
+    font-size: 25px;
+    color: #e67e22;
+}
+
+
+/*----------------------------------*/
+/* PARAGRAPHS */
+/*----------------------------------*/
+
+.long-copy {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-right: 30px;
+    line-height: 170%;
+    text-align: center;
+    color: #e67e22;
+}
+
+/*----------------------------------*/
+/* FORM */
+/*----------------------------------*/
+
+.section-forms h2 {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 50px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+    color: #e67e22;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.name-row {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.email-row {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.subject-row {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.message-row {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.send-it-row {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+input[type=submit] {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+    margin-right: 15px;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active  {
+    background-color: #cf6d17;
+}
+
+*:focus{outline: none;}

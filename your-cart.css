@@ -1,0 +1,139 @@
+/*----------------------------------*/
+/* BASIC SETUP */
+/*----------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: Arial;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: "Arial";
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*----------------------------------*/
+/* HEAD */
+/*----------------------------------*/
+
+.head {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding-left: 20px;
+    display: flex;
+    font-size: 15px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.top-head h1 {
+    float: right;
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 300;
+    padding-right: 5px;
+}
+
+.top-head img {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.main-nav {
+    margin-left: 450px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.main-nav li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    color: #e67e22;
+    transition: color 0.6s; 
+}
+
+/* .main-nav li:last-child a i {
+    position: relative;
+} */
+
+/* .main-nav li:last-child a i span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 10px;
+    border-radius: 50%;
+    text-align: center;
+    background: red;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%; 
+    text-align: center;  
+} */
+
+/* .main-nav li:last-child a i span h6 {
+    color: #fff;
+    position: relative;
+    bottom: 3px;
+} */
+
+/*----------------------------------*/
+/* ICONS */
+/*----------------------------------*/
+
+.icon-small {
+    text-align: center;
+    color: #e67e22;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    
+    /*secrets to align text and icon*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+/*----------------------------------*/
+/* ITEMS */
+/*----------------------------------*/
+
+.items {
+    background-color: #fff;
+    height: 100vh;
+}
+
+/*----------------------------------*/
+/* PARAGRAPHS */
+/*----------------------------------*/
+
+.short-copy {
+    text-align: center;
+    font-size: 25px;
+    color: #e67e22;
+    padding-top: 250px;
+}
