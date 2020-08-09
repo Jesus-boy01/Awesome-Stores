@@ -1,12 +1,12 @@
 @media (min-width: 1024px) and (max-width: 1200px) {
-    .content {
-        max-width: 100%;
-    }
-
     .product1 {
         width: 100%;
         margin: 0;
         text-align: center;
+    }
+
+    .img4 {
+
     }
 
     .product2 {
@@ -15,10 +15,18 @@
         text-align: center;
     }
 
+    .img5 {
+
+    }
+
     .product3 {
         width: 100%;
         margin: 0;
         text-align: center;
+    }
+
+    .img7 {
+        
     }
 
     .product4 {
@@ -27,16 +35,28 @@
         text-align: center;
     }
 
+    .img7 {
+        margin: 1em 0 0 0;
+    }
+
     .product5 {
         width: 100%;
         margin: 0;
         text-align: center;
     }
 
+    .img16 {
+
+    }
+
     .product6 {
         width: 100%;
-        margin: 0;
+        margin: 2.5em 0 0 0;
         text-align: center;
+    } 
+
+    .img17 {
+
     }
 
     .product7 {
@@ -45,16 +65,33 @@
         text-align: center;
     }
 
+    .img19 {
+
+    }
+
     .product8 {
         width: 100%;
-        margin: 0;
+        margin: 2.5em 0 0 0;
         text-align: center;
+    }
+
+    .img21 {
+        
     }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-    .content {
-        max-width: 100%;
+    .main-nav {
+        margin-right: 0;
+        padding-right: 1em;
+    }
+
+    .main-nav li {
+        margin-left: 20px;
+    }
+
+    .main-nav li a {
+        margin-left: 20px;
     }
 
     .nike-products {
@@ -67,9 +104,160 @@
         text-align: center;
     }
 
+    .img4 {
+
+    }
+
     .product2 {
         width: 100%;
         margin: 0;
         text-align: center;
     }
+
+    .img5 {
+
+    }
+
+    .product3 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img7 {
+        
+    }
+
+    .product4 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img7 {
+        margin: 1em 0 0 0;
+    }
+
+    .product5 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img16 {
+
+    }
+
+    .product6 {
+        width: 100%;
+        margin: 2.5em 0 0 0;
+        text-align: center;
+    } 
+
+    .img17 {
+
+    }
+
+    .product7 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img19 {
+
+    }
+
+    .product8 {
+        width: 100%;
+        margin: 2.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img21 {
+        
+    }
 }
+
+
+/*-- 
+.product1 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img4 {
+
+    }
+
+    .product2 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img5 {
+
+    }
+
+    .product3 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img7 {
+        
+    }
+
+    .product4 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img7 {
+        margin: 1em 0 0 0;
+    }
+
+    .product5 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img16 {
+
+    }
+
+    .product6 {
+        width: 100%;
+        margin: 2.5em 0 0 0;
+        text-align: center;
+    } 
+
+    .img17 {
+
+    }
+
+    .product7 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .img19 {
+
+    }
+
+    .product8 {
+        width: 100%;
+        margin: 2.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img21 {
+        
+    }
+    -- */
