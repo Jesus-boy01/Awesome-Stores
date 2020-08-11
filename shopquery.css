@@ -108,7 +108,7 @@
     }
 
     .balenciaga-products {
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .gucci-products {
@@ -116,25 +116,21 @@
     }
 
     .product1 {
-        width: 100%;
         margin: 0;
         text-align: center;
     }
 
     .product2 {
-        width: 100%;
         margin: 0;
         text-align: center;
     }
 
     .product3 {
-        width: 100%;
-        margin: 0;
+        margin: 0 0 0 1em;
         text-align: center;
     }
 
     .product4 {
-        width: 100%;
         margin: 0;
         text-align: center;
     }
@@ -148,25 +144,21 @@
     }
 
     .product5 {
-        width: 100%;
         margin: 0;
         text-align: center;
     }
 
     .product6 {
-        width: 100%;
         margin: 2.5em 0 0 0;
         text-align: center;
     } 
 
     .product7 {
-        width: 100%;
         margin: 0;
         text-align: center;
     }
 
     .product8 {
-        width: 100%;
         margin: 2.5em 0 0 0;
         text-align: center;
     }
@@ -180,85 +172,304 @@
     }
 }
 
+@media (min-width: 451px) and (max-width: 767px) {
+    .nike-products {
+        justify-content: space-between;
+    }
 
-/*-- 
-.product1 {
-        width: 100%;
+    .product1 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .product2 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .addidas-products {
+        justify-content: space-between;
+    }
+
+    .product3 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .product4 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .balenciaga-products {
+        justify-content: space-between;
+    }
+
+    .product5 {
+    margin: 0;
+        text-align: center;
+    }
+
+    .product6 {
+        margin: 3em 0 0 0;
+        text-align: center;
+    }
+
+    .gucci-products {
+        justify-content: space-between;
+    }
+
+    .product7 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .product8 {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 450px) {
+    .nike-products {
+        flex-direction: column;
+    }
+
+    .product1 {
         margin: 0;
         text-align: center;
     }
 
     .img4 {
+        margin: 0;
+    }
 
+    .cart1 {
+        margin: 0;
     }
 
     .product2 {
-        width: 100%;
-        margin: 0;
+        margin: 1.5em 0 0 0;
         text-align: center;
     }
 
     .img5 {
+        margin: 0;
+    }
 
+    .cart2 {
+        margin: 0;
+    }
+
+    .addidas-products {
+        flex-direction: column;
     }
 
     .product3 {
-        width: 100%;
         margin: 0;
         text-align: center;
     }
 
-    .img7 {
-        
+    .img6 {
+        margin: 0;
+    }
+
+    .cart3 {
+        margin: 0;
     }
 
     .product4 {
-        width: 100%;
-        margin: 0;
+        margin: 1.5em 0 0 0;
         text-align: center;
     }
 
     .img7 {
-        margin: 1em 0 0 0;
+        margin: 0;
+    }
+
+    .cart4 {
+        margin: 0;
+    }
+
+    .balenciaga-products {
+        flex-direction: column;
     }
 
     .product5 {
-        width: 100%;
         margin: 0;
         text-align: center;
     }
 
     .img16 {
+        margin: 0;
+    }
 
+    .cart5 {
+        margin: 0;
     }
 
     .product6 {
-        width: 100%;
-        margin: 2.5em 0 0 0;
+        margin: 1.5em 0 0 0;
         text-align: center;
-    } 
+    }
 
     .img17 {
+        margin: 0;
+    }
 
+    .cart6 {
+        margin: 0;
+    }
+
+    .gucci-products {
+        flex-direction: column;
     }
 
     .product7 {
-        width: 100%;
         margin: 0;
         text-align: center;
     }
 
     .img19 {
+        margin: 0;
+    }
 
+    .cart7 {
+        margin: 0;
     }
 
     .product8 {
-        width: 100%;
-        margin: 2.5em 0 0 0;
+        margin: 1.5em 0 0 0;
         text-align: center;
     }
 
     .img21 {
-        
+        margin: 0;
     }
-    -- */
+
+    .cart8 {
+        margin: 0;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 400px) {
+    .nike-products {
+        flex-direction: column;
+    }
+
+    .product1 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img4 {
+        margin: 0;
+    }
+
+    .cart1 {
+        margin: 0;
+    }
+
+    .product2 {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img5 {
+        margin: 0;
+    }
+
+    .cart2 {
+        margin: 0;
+    }
+
+    .addidas-products {
+        flex-direction: column;
+    }
+
+    .product3 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img6 {
+        margin: 0;
+    }
+
+    .cart3 {
+        margin: 0;
+    }
+
+    .product4 {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img7 {
+        margin: 0;
+    }
+
+    .cart4 {
+        margin: 0;
+    }
+
+    .balenciaga-products {
+        flex-direction: column;
+    }
+
+    .product5 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img16 {
+        margin: 0;
+    }
+
+    .cart5 {
+        margin: 0;
+    }
+
+    .product6 {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img17 {
+        margin: 0;
+    }
+
+    .cart6 {
+        margin: 0;
+    }
+
+    .gucci-products {
+        flex-direction: column;
+    }
+
+    .product7 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img19 {
+        margin: 0;
+    }
+
+    .cart7 {
+        margin: 0;
+    }
+
+    .product8 {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img21 {
+        margin: 0;
+    }
+
+    .cart8 {
+        margin: 0;
+    }
+}
