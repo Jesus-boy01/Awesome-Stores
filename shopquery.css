@@ -86,8 +86,12 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+    .top-head {
+        display: flex;
+    }
+
     .main-nav {
-        margin-right: 0;
+        margin: 0 0 0 2.5em;
         padding-right: 1em;
     }
 
@@ -468,6 +472,334 @@
 
     .main-nav li a {
         margin: 0;
+    }
+
+    .nike-products {
+        flex-direction: column;
+    }
+
+    .product1 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img4 {
+        margin: 0;
+    }
+
+    .cart1 {
+        margin: 0;
+    }
+
+    .product2 {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img5 {
+        margin: 0;
+    }
+
+    .cart2 {
+        margin: 0;
+    }
+
+    .addidas-products {
+        flex-direction: column;
+    }
+
+    .product3 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img6 {
+        margin: 0;
+    }
+
+    .cart3 {
+        margin: 0;
+    }
+
+    .product4 {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img7 {
+        margin: 0;
+    }
+
+    .cart4 {
+        margin: 0;
+    }
+
+    .balenciaga-products {
+        flex-direction: column;
+    }
+
+    .product5 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img16 {
+        margin: 0;
+    }
+
+    .cart5 {
+        margin: 0;
+    }
+
+    .product6 {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img17 {
+        margin: 0;
+    }
+
+    .cart6 {
+        margin: 0;
+    }
+
+    .gucci-products {
+        flex-direction: column;
+    }
+
+    .product7 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img19 {
+        margin: 0;
+    }
+
+    .cart7 {
+        margin: 0;
+    }
+
+    .product8 {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img21 {
+        margin: 0;
+    }
+
+    .cart8 {
+        margin: 0;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 374px) {
+    #shoes {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .shoes h1 {
+        float: none;
+    }
+
+    .top-head {
+        padding: 0 0 0 1em;
+        display: flex;
+    }
+    
+    .top-head h1 {
+        margin-top: 15px;
+        font-size: 25px;
+        font-weight: 300;
+        padding-right: 5px;
+    }
+    
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .main-nav {
+        margin: 0;
+        text-align: center;
+    }
+
+    .main-nav li {
+        margin: 2em 0.5em;
+    }
+
+    .main-nav li a {
+        margin: 0;
+    }
+
+    .nike-products {
+        flex-direction: column;
+    }
+
+    .product1 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img4 {
+        margin: 0;
+    }
+
+    .cart1 {
+        margin: 0;
+    }
+
+    .product2 {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img5 {
+        margin: 0;
+    }
+
+    .cart2 {
+        margin: 0;
+    }
+
+    .addidas-products {
+        flex-direction: column;
+    }
+
+    .product3 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img6 {
+        margin: 0;
+    }
+
+    .cart3 {
+        margin: 0;
+    }
+
+    .product4 {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img7 {
+        margin: 0;
+    }
+
+    .cart4 {
+        margin: 0;
+    }
+
+    .balenciaga-products {
+        flex-direction: column;
+    }
+
+    .product5 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img16 {
+        margin: 0;
+    }
+
+    .cart5 {
+        margin: 0;
+    }
+
+    .product6 {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img17 {
+        margin: 0;
+    }
+
+    .cart6 {
+        margin: 0;
+    }
+
+    .gucci-products {
+        flex-direction: column;
+    }
+
+    .product7 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .img19 {
+        margin: 0;
+    }
+
+    .cart7 {
+        margin: 0;
+    }
+
+    .product8 {
+        margin: 1.5em 0 0 0;
+        text-align: center;
+    }
+
+    .img21 {
+        margin: 0;
+    }
+
+    .cart8 {
+        margin: 0;
+    }
+}
+
+@media (max-width: 299px) {
+    #shoes {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .shoes h1 {
+        float: none;
+    }
+
+    .top-head {
+        padding: 0 0 0 1em;
+        display: flex;
+    }
+    
+    .top-head h1 {
+        margin-top: 15px;
+        font-size: 25px;
+        font-weight: 300;
+        padding-right: 5px;
+    }
+    
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .main-nav {
+        margin: 1em 0;
+        text-align: center;
+    }
+
+    .main-nav li {
+        margin: 0 0.5em;
+    }
+
+    .main-nav li a {
+        margin: 0;
+    }
+
+    .content1 h2,
+    .content2 h2,
+    .content3 h2 {
+        font-size: 1.7rem;
     }
 
     .nike-products {
