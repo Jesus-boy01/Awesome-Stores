@@ -144,7 +144,7 @@
     }
 
     .product5 {
-        margin: 0;
+        margin: 0 8em 0 0;
         text-align: center;
     }
 
@@ -173,6 +173,45 @@
 }
 
 @media (min-width: 451px) and (max-width: 767px) {
+    #shoes {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .shoes h1 {
+        float: none;
+    }
+
+    .top-head {
+        padding: 0 0 0 1em;
+        display: flex;
+    }
+    
+    .top-head h1 {
+        margin-top: 15px;
+        font-size: 25px;
+        font-weight: 300;
+        padding-right: 5px;
+    }
+    
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .main-nav {
+        margin: 0;
+        text-align: center;
+    }
+
+    .main-nav li {
+        margin: 2em 0.5em;
+    }
+
+    .main-nav li a {
+        margin: 0;
+    }
+
     .nike-products {
         justify-content: space-between;
     }
@@ -231,6 +270,45 @@
 }
 
 @media (min-width: 401px) and (max-width: 450px) {
+    #shoes {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .shoes h1 {
+        float: none;
+    }
+
+    .top-head {
+        padding: 0 0 0 1em;
+        display: flex;
+    }
+    
+    .top-head h1 {
+        margin-top: 15px;
+        font-size: 25px;
+        font-weight: 300;
+        padding-right: 5px;
+    }
+    
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .main-nav {
+        margin: 0;
+        text-align: center;
+    }
+
+    .main-nav li {
+        margin: 2em 1em;
+    }
+
+    .main-nav li a {
+        margin: 0;
+    }
+
     .nike-products {
         flex-direction: column;
     }
@@ -353,6 +431,45 @@
 }
 
 @media (min-width: 375px) and (max-width: 400px) {
+    #shoes {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .shoes h1 {
+        float: none;
+    }
+
+    .top-head {
+        padding: 0 0 0 1em;
+        display: flex;
+    }
+    
+    .top-head h1 {
+        margin-top: 15px;
+        font-size: 25px;
+        font-weight: 300;
+        padding-right: 5px;
+    }
+    
+    #logo {
+        height: 50px;
+        width: 50px;
+    }
+
+    .main-nav {
+        margin: 0;
+        text-align: center;
+    }
+
+    .main-nav li {
+        margin: 2em 0.5em;
+    }
+
+    .main-nav li a {
+        margin: 0;
+    }
+
     .nike-products {
         flex-direction: column;
     }
