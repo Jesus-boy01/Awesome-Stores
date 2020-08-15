@@ -44,8 +44,11 @@ header {
     z-index: 9999;
 }
 
+.top-head {
+    display: flex;
+}
+
 .top-head h1 {
-    float: right;
     margin-top: 15px;
     font-size: 25px;
     font-weight: 300;
